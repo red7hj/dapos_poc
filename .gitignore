@@ -1,3 +1,23 @@
-.idea/
+# Cache
+.cache/
+
+# Environment specific
+env/
+.env
+db.sqlite3
+
+# Security
+*.key
+*.key.pub
+*.pem
+
+# IDE
+.idea
+tsconfig.json
+
+# OS
+.DS_Store
+
+#logs
 dapos_poc.log
 dapos_poc
